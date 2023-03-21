@@ -175,7 +175,7 @@ export class SpotifyService {
             Deno.exit(1);
         }
 
-        console.log("Successfully logged in to Spotify");
+        console.log("Logging in to Spotify");
         console.log("Client ID:", this.client_id);
 
         try {
